@@ -1,0 +1,29 @@
+body {
+  background-image: url(https://sb.kaleidousercontent.com/67418/800x533/49cc88a1d9/products.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h1 {
+  color: forestgreen;
+}
+img {
+  width: 350px;
+}
+div {
+  margin: auto;
+}
+#thirdDiv {
+  height: 600px;
+  max-width: 500px;
+  background-color: wheat;
+  padding: 50px;
+  border: 2px chocolate dotted;
+  box-sizing: border-box;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}

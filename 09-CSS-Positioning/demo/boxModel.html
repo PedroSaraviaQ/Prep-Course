@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Box Model</title>
   <style type="text/css">
     .simple {
       width: 500px;
       margin: 20px auto;
+      padding: 0;
       background: red;
       border: black 10px solid;
     }
@@ -18,22 +22,21 @@
       background: gray;
       border: yellow 10px solid;
     }
- 
+
 
     div {
       box-sizing: border-box;
     }
-
   </style>
 </head>
-<body>
-    
-    <div class="simple">Soy chico</div>
-    <div class="margen">Soy más grande. Porqué si los dos tenemos 500 px de <i>width</i></div>
-    <div class="margen">
-      Soy más grande. Porqué si los dos tenemos 500 px de <i>width</i>
-      <div class="simple">Absolute</div>
-    </div>
 
+<body>
+  <div class="simple">Soy chico</div>
+  <div class="margen">Soy más grande. Porqué si los dos tenemos 500 px de <i>width</i></div>
+  <div class="margen">
+    Soy más grande. Porqué si los dos tenemos 500 px de <i>width</i>
+    <div class="simple">Absolute</div>
+  </div>
 </body>
+
 </html>
